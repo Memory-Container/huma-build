@@ -444,7 +444,8 @@ main {
         .j-card {
             padding: 0 5px;
             justify-content: space-between;
-            min-width: 880px
+            min-width: 880px;
+            width: 100%;
         }
         .box_card {
             max-width: 980px;
@@ -518,6 +519,11 @@ footer {
         }
         .testimonial {
             margin-bottom: 55px;
+        }
+        .container {
+            .j-card {
+                width: unset;
+            }
         }
     }
     footer {
