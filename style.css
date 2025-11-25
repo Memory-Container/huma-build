@@ -502,7 +502,7 @@ footer {
 }
 @media only screen and (max-width: 1024px) {
     .section_4 {
-        height: 1000px;
+        height: 890px;
         bottom: 0px;
         .color_title {
             display: flex;
