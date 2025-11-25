@@ -33,6 +33,7 @@ header {
     }
 }
 .section1 {
+    background-color: #fff;
     height: 815px;
     background-image: url(assets/background-top.png);
     background-size: cover;
@@ -106,7 +107,9 @@ header {
     }
 }
 main {
+    position: relative;
     color: #fefeff;
+    background-color: white;
 }
 .section_1 {
     display: flex;
@@ -296,6 +299,8 @@ main {
     }
 }
 .section_3 {
+    position: relative;
+    z-index: 9;
     display: flex;
     justify-content: center;
     .box1 {
@@ -396,6 +401,7 @@ main {
     }
 }
 .section_4 {
+    background-color: #fff;
     height: 984px;
     background-position: 100% 0%;
     display: flex;
